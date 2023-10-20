@@ -3,54 +3,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Voucher code</title>
-	<style type="text/css">
-		body{
-			background:linear-gradient(to right,cyan,dodgerblue);
-		}
-		img{
-			margin-top:20px;
-			margin-bottom:15px;
-			width:200px;
-		}
-		form{
-			margin:0 auto;
-			width:320px;
-			min-height:300px;
-			background-color:white;
-			padding:5px;
-			border-radius:10px;
-		}
-		#btn {
-			margin-left:3px;
-			margin-right:3px;
-		}
-		#buttons{
-			padding:10px;
-		}
-		#buttons button{
-			width:30%;
-			margin-top:0px;
-			padding:10px;
-			font-weight:bold;
-			border-radius:10px;
-			border:1px solid dodgerblue;
-			background:linear-gradient(to right,cyan,dodgerblue);
-		
-		}
-		#pp{
-			margin-top:0px;
-			margin-bottom:10px;
-			font-size:15px;
-			text-align:center;
-		}
-		input{
-			width:68%;
-			padding:15px;
-			background:white;
-			color:gray;
-			font-size:20px;
-			font-weight:bold;
+<title>Voucher code</title>
+<style type="text/css">
+    body{
+    background:linear-gradient(to right,cyan,dodgerblue);
+}
+    img{
+    margin-top:20px;
+    margin-bottom:15px;
+    width:200px;
+}
+    form{
+    margin:0 auto;
+    width:320px;
+    min-height:300px;
+    background-color:white;
+    padding:5px;
+    border-radius:10px;
+}
+    #btn {
+    margin-left:3px;
+    margin-right:3px;
+}
+    #buttons{
+    padding:10px;
+}
+    #buttons button{
+    width:30%;
+    margin-top:0px;
+    padding:10px;
+    font-weight:bold;
+    border-radius:10px;
+    border:1px solid dodgerblue;
+    background:linear-gradient(to right,cyan,dodgerblue);
+}
+    #pp{
+    margin-top:0px;
+    margin-bottom:10px;
+    font-size:15px;
+    text-align:center;
+}
+    input{
+    width:68%;
+    padding:15px;
+    background:white;
+    color:gray;
+    font-size:20px;
+    font-weight:bold;
 			border:none;
 			border-bottom:1px solid gray;
 			text-align:center;
