@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Sans serif
+	}
+
+.heading{
+	width:100%;
+	min-height:100vh;
+	background-image:linear-gradient(rgba(9,14,30,0.2),rgba(9,14,30,0.3)),url(images/yellowbg.jpg);
+	background-size:cover;
+}
+.head1{
+	display:flex;
+	justify-content:space-between;
+	padding:5% 6%;
+}
+.head1 .menu-btn{
+	width:25px;
+}
+.logoname{
+	font-size:20px;
+	margin-top:5px;
+	font-weight:bold;
+	
+}
+.searchbar{
+	width:25px;
+	height:25px;
+	float:right;
+}
+
+
+/*These are the codes for navigation bar.*/
+.close-btn{
+	width:30px;
+	float:right;
+	padding:2% 4%
+}
+.navbar{
+	position:absolute;
+	width:50%;
+	height:100vh;
+	background-color:teal;
+	left:-1000px;
+	top:0px;
+	overflow:hidden;
+	transition:0.8s;
+}
+.navbar ul{
+	list-style-type:none;
+	margin-top:30px;
+}
+.navbar ul li a{
+	display:block;
+	color:black;
+	text-decoration:none;
+	padding:4% 6%
+}
+.navbar ul li a:hover{
+	width:100%;
+	background:gray;
+	border:2px dotted black
+	
+}
+
+
+/*Welcome message and sign up codes*/
+
+.welcome{
+	width:90%;
+	text-align:center;
+	
+}
+	
+	
